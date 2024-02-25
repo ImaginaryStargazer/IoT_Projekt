@@ -1,0 +1,104 @@
+/*Importovanie fontu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/*=========  HEADER START =========*/
+
+.headerContainer {
+
+    background-color: #6c8c92;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1em;
+}
+
+
+/*=========  HEADER END =========*/
+
+
+/*=========  BUTTON CONTAINER START =========*/
+
+.infoWrapper {
+    padding-top: 40px;
+    width: 100%;
+    background-color: #7DA2A9;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#numberOfDevices {
+    color: green;
+    font-size: 2.5em;
+    margin-left: 15px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2em;
+    background-color: #7DA2A9;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.buttonWrapper {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+.buttonWrapper p {
+    font-size: 20px;
+}
+
+
+.togglePinButton {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*=========  BUTTON CONTAINER END =========*/
+
+
+
+
+/*=========  FOOTER START =========*/
+
+.createdByContainer {
+    display: flex;
+    background-color: #6c8c92;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 20vh;
+
+}
+
+
+.createdByContainer h2, h3 {
+    margin-top: 20px;
+}
+
+
+/*=========  FOOTER CONTAINER END =========*/
